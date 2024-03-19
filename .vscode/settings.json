@@ -1,3 +1,11 @@
 {
-    "sqltools.useNodeRuntime": true
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "my",
+            "database": "${workspaceFolder:ClientServer}/Server/my.db"
+        }
+    ]
 }
