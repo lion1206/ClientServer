@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TrainWidget</class>
+ <widget class="QWidget" name="TrainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>132</width>
+    <height>125</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TrainWidget</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="trainNumberLabel"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="departureTimeLabel"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="arrivalTimeLabel"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="availableSeatsLabel"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="buyButton">
+     <property name="text">
+      <string>Buy</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
